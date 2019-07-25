@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bijen.onlinedhaba">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".app.Item_Deatail"></activity>
+        <activity android:name=".app.Cart" />
+        <activity android:name=".app.About" />
+        <activity android:name=".app.AdminHelp" />
+        <activity android:name=".app.AdminSetting" />
+        <activity android:name=".app.Admin_Profile" />
+        <activity android:name=".app.Update_Item" />
+        <activity android:name=".app.Delete_Item" />
+        <activity android:name=".app.User" />
+        <activity android:name=".app.HomeUser" />
+        <activity android:name=".app.RegisterHotel" />
+        <activity android:name=".app.FoodItem" />
+        <activity android:name=".app.MainActivity" />
+        <activity android:name=".app.Admin" />
+        <activity android:name=".app.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app.Home" />
+    </application>
+
+</manifest>

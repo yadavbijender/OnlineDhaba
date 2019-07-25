@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:text="Sign up"
+            android:textSize="40sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_signup_email"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/text"
+            android:background="@drawable/edttxtstyle"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/emailicon"
+            android:drawablePadding="10dp"
+            android:hint="Email id"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_signup_username"
+            android:layout_below="@+id/user_signup_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/securityicon"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/edttxtstyle"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:hint="Username"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_signup_password"
+            android:layout_below="@+id/user_signup_username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/securityicon"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/edttxtstyle"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:hint="Password"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text2"
+            android:layout_below="@+id/user_signup_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="If you already have an account, then Login"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:textColor="#0a0909"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_signup"
+            android:layout_below="@+id/text2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:background="@drawable/btnadmin"
+            android:text="Sign up"
+            android:textSize="30sp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

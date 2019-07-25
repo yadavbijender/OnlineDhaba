@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.Admin_Profile">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundoverlay"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/admin_profile_toolbar"
+            layout="@layout/toolbar"/>
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:background="@layout/imageview_border"
+            android:id="@+id/profile_hotel_image"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="Hotel Owner Name"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/viewprofile"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/personicon"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/owner_name"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="Owner Email id"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:background="@color/viewprofile"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/emailicon"
+            android:id="@+id/owner_email"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="Owner Phone Number"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/phone"
+            android:background="@color/viewprofile"
+            android:id="@+id/owner_phone"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="Hotel name"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/hotelicon"
+            android:background="@color/viewprofile"
+            android:id="@+id/owner_hotel_name"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="Hotel location"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/locationicon"
+            android:id="@+id/owner_hotel_location"
+            android:background="@color/viewprofile"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:text="Landline number"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/landphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:background="@color/viewprofile"
+            android:id="@+id/owner_landline_contact"
+            android:layout_marginBottom="20sp"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPurple">#bde123fa</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="colorgreen">#bd1ef9df</color>
+    <color name="iconcolor">#642b73</color>
+    <color name="shore">#70e1f5</color>
+    <color name="shore1">#ffd194</color>
+
+    <color name="viewprofile">#97bc62</color>
+</resources>

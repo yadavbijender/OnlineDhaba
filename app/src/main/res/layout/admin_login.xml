@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:text="Login"
+            android:fontFamily="monospace"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/admin_login_email"
+            android:layout_below="@+id/text"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/emailicon"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edttxtstyle"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:hint="Email id"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/admin_login_passward"
+            android:layout_below="@+id/admin_login_email"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/securityicon"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:background="@drawable/edttxtstyle"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/admin_login"
+            android:layout_below="@+id/admin_login_passward"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:background="@drawable/btnadmin"
+            android:text="Login"
+            android:textSize="30sp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Online Dhaba</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="tagline">Who You Want To Be</string>
+
+    <string name="change_email">If you want to change your Email account then choose this option.</string>
+    <string name="change_phone_number">If you want to change your Phone number then choose this option.</string>
+    <string name="reset_password">Forgot Password, then Reset from here</string>
+    <string name="register_another_hotel">You can Add New Hotel from here.</string>
+    <string name="delete_account">If you no longer want to use this application then you can delete your account permanently.</string>
+</resources>
